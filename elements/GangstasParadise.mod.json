@@ -4,16 +4,14 @@
   "definition": {
     "texture": "sonic_musicdisc",
     "name": "Gangstas Paradise",
-    "description": "A very epic SONIC THE HEDGEHOG music!",
+    "description": "EPIC SANKI MJUZIK!!!",
     "creativeTab": {
       "value": "MISC"
     },
     "music": {
       "value": "CUSTOM:music_gangstasparadise"
     },
-    "specialInfo": [
-      "Sakadik"
-    ],
+    "specialInfo": [],
     "hasGlow": false
   }
 }

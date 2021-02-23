@@ -92,7 +92,7 @@
     {
       "name": "GangstasParadise",
       "type": "musicdisc",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -120,11 +120,13 @@
   "language_map": {
     "en_us": {
       "item.allah_mod.niggaworld": "Niggaworld igniter",
+      "item.allah_mod.gangstas_paradise": "Gangstas Paradise",
       "item.allah_mod.obamiuma_helmet": "Obamium Helmet",
       "item.allah_mod.obamiuma_chestplate": "Obamium Body",
       "item.allah_mod.obamiuma_leggings": "Obamium Leggings",
       "item.allah_mod.nwordpass": "Nwordpass",
       "block.allah_mod.obamium": "Obamium",
+      "item.allah_mod.gangstas_paradise.desc": "EPIC SANKI MJUZIK!!!",
       "subtitles.music_gangstasparadise": "Gangsta\u0027s Paradise",
       "item.allah_mod.obamiuma_boots": "Obamium Boots"
     }
