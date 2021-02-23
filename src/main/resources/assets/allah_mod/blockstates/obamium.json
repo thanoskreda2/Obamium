@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "allah_mod:block/obamium"
-    },
-    "facing=east": {
-      "model": "allah_mod:block/obamium",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "allah_mod:block/obamium",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "allah_mod:block/obamium",
-      "y": 270
     }
   }
 }
