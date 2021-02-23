@@ -4,14 +4,16 @@
   "definition": {
     "texture": "sonic_musicdisc",
     "name": "Gangstas Paradise",
-    "description": "EPIC SANKI MJUZIK!!!",
+    "description": "Gangsta's Paradise 8-Bit",
     "creativeTab": {
       "value": "MISC"
     },
     "music": {
       "value": "CUSTOM:music_gangstasparadise"
     },
-    "specialInfo": [],
+    "specialInfo": [
+      "Epic Sanik Muzik"
+    ],
     "hasGlow": false
   }
 }
