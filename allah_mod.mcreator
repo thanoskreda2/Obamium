@@ -9,6 +9,76 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obamium"
+    },
+    {
+      "name": "NwordpassLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nwordpass_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NwordpassRightClickedInAir",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nwordpass_right_clicked_in_air",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Nwordpass",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nwordpass"
+    },
+    {
+      "name": "NwordpassEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nwordpass_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Obamiuma",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obamiuma",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [
@@ -22,7 +92,12 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.allah_mod.obamium": "Obamium"
+      "item.allah_mod.obamiuma_helmet": "Obamium Helmet",
+      "item.allah_mod.obamiuma_chestplate": "Obamium Body",
+      "item.allah_mod.obamiuma_leggings": "Obamium Leggings",
+      "item.allah_mod.nwordpass": "Nwordpass",
+      "block.allah_mod.obamium": "Obamium",
+      "item.allah_mod.obamiuma_boots": "Obamium Boots"
     }
   },
   "workspaceSettings": {
