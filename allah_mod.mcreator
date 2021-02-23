@@ -128,11 +128,16 @@
   ],
   "language_map": {
     "en_us": {
+      "item.allah_mod.niggaworld": "Niggaworld Portal Igniter",
       "item.allah_mod.nwordpass": "Nwordpass",
+      "item.allah_mod.gangstas_paradise.desc": "Gangsta\u0027s Paradise 8-Bit",
       "item.allah_mod.obamiuma_boots": "Obamium Boots",
+      "item.allah_mod.gangstas_paradise": "Gangstas Paradise",
       "item.allah_mod.obamiuma_helmet": "Obamium Helmet",
       "item.allah_mod.obamiuma_chestplate": "Obamium Body",
+      "entity.allah_mod.zombiama": "Zombiama",
       "item.allah_mod.obamiuma_leggings": "Obamium Leggings",
+      "item.allah_mod.zombiama_spawn_egg": "Zombiama Spawn Egg",
       "block.allah_mod.obamium": "Obamium",
       "subtitles.music_gangstasparadise": "Gangsta\u0027s Paradise"
     }
