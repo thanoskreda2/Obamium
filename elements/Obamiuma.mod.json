@@ -39,12 +39,12 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 99,
-    "damageValueHelmet": 69,
-    "damageValueBody": 69,
-    "damageValueLeggings": 69,
-    "damageValueBoots": 69,
-    "enchantability": 9,
-    "toughness": 2.0,
+    "damageValueHelmet": 420,
+    "damageValueBody": 420,
+    "damageValueLeggings": 420,
+    "damageValueBoots": 420,
+    "enchantability": 15,
+    "toughness": 5.0,
     "equipSound": {
       "value": "block.ladder.break"
     },

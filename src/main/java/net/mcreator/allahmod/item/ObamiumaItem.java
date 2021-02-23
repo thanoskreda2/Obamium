@@ -41,11 +41,11 @@ public class ObamiumaItem extends AllahModModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{69, 69, 69, 69}[slot.getIndex()];
+				return new int[]{420, 420, 420, 420}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 9;
+				return 15;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -62,7 +62,7 @@ public class ObamiumaItem extends AllahModModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 2f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
