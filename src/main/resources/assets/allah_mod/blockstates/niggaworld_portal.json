@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "allah_mod:block/niggaworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "allah_mod:block/niggaworld_portal_ns"
+    }
+  }
+}
