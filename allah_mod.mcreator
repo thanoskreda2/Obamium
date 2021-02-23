@@ -88,6 +88,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "niggaworld"
+    },
+    {
+      "name": "GangstasParadise",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gangstas_paradise"
     }
   ],
   "variable_elements": [
@@ -98,15 +107,24 @@
       "value": "false"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_gangstasparadise",
+      "files": [
+        "gangstasparadise"
+      ],
+      "category": "music",
+      "subtitle": "Gangsta\u0027s Paradise"
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.allah_mod.niggaworld": "Niggaworld igniter",
       "item.allah_mod.obamiuma_helmet": "Obamium Helmet",
       "item.allah_mod.obamiuma_chestplate": "Obamium Body",
       "item.allah_mod.obamiuma_leggings": "Obamium Leggings",
       "item.allah_mod.nwordpass": "Nwordpass",
       "block.allah_mod.obamium": "Obamium",
+      "subtitles.music_gangstasparadise": "Gangsta\u0027s Paradise",
       "item.allah_mod.obamiuma_boots": "Obamium Boots"
     }
   },

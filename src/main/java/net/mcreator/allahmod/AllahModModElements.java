@@ -48,6 +48,8 @@ public class AllahModModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public AllahModModElements() {
+		sounds.put(new ResourceLocation("allah_mod", "music_gangstasparadise"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("allah_mod", "music_gangstasparadise")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("allah_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
