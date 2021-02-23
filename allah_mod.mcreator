@@ -81,15 +81,6 @@
       }
     },
     {
-      "name": "Niggaworld",
-      "type": "dimension",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "niggaworld"
-    },
-    {
       "name": "GangstasParadise",
       "type": "musicdisc",
       "sortid": 7,
@@ -119,7 +110,6 @@
   ],
   "language_map": {
     "en_us": {
-      "item.allah_mod.niggaworld": "Niggaworld igniter",
       "item.allah_mod.gangstas_paradise": "Gangstas Paradise",
       "item.allah_mod.obamiuma_helmet": "Obamium Helmet",
       "item.allah_mod.obamiuma_chestplate": "Obamium Body",
