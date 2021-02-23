@@ -1,0 +1,45 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Obamium",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obamium"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "haram",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.allah_mod.obamium": "Obamium"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "allah_mod",
+    "modName": "Allah mod",
+    "version": "1.0.0",
+    "author": "rafal, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.allahmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

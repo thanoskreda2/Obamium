@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "allah_mod:blocks/obama",
+    "up": "allah_mod:blocks/obama",
+    "north": "allah_mod:blocks/obama",
+    "east": "allah_mod:blocks/obama",
+    "south": "allah_mod:blocks/obama",
+    "west": "allah_mod:blocks/obama",
+    "particle": "allah_mod:blocks/obama"
+  }
+}
