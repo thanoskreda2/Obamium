@@ -88,6 +88,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "niggaworld"
+    },
+    {
+      "name": "GangstasParadise",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gangstas_paradise"
     }
   ],
   "variable_elements": [
@@ -110,7 +119,6 @@
   ],
   "language_map": {
     "en_us": {
-      "item.allah_mod.niggaworld": "Niggaworld Portal Igniter",
       "item.allah_mod.obamiuma_helmet": "Obamium Helmet",
       "item.allah_mod.obamiuma_chestplate": "Obamium Body",
       "item.allah_mod.obamiuma_leggings": "Obamium Leggings",

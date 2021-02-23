@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sonic_musicdisc",
+    "name": "Gangstas Paradise",
+    "description": "Gangsta's Paradise 8-Bit",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:music_gangstasparadise"
+    },
+    "specialInfo": [
+      "Epic Sanik Muzik"
+    ],
+    "hasGlow": false
+  }
+}
