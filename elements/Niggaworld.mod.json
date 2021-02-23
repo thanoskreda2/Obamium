@@ -22,12 +22,6 @@
     "biomesInDimension": [
       {
         "value": "nether"
-      },
-      {
-        "value": "mutated_savanna_rock"
-      },
-      {
-        "value": "mutated_mesa_rock"
       }
     ],
     "worldGenType": "Nether like gen",
