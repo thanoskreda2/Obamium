@@ -1,2 +1,2 @@
 # Obamium
-An epic modpack adding a ton of memes!
+An epic Minecraft modpack adding a ton of memes!
