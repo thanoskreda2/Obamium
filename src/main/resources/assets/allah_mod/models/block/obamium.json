@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "allah_mod:blocks/obama",
-    "up": "allah_mod:blocks/obama",
-    "north": "allah_mod:blocks/obama",
-    "east": "allah_mod:blocks/obama",
-    "south": "allah_mod:blocks/obama",
-    "west": "allah_mod:blocks/obama",
-    "particle": "allah_mod:blocks/obama"
+    "down": "allah_mod:blocks/obama_face",
+    "up": "allah_mod:blocks/obama_face",
+    "north": "allah_mod:blocks/obama_face",
+    "east": "allah_mod:blocks/obama_face",
+    "south": "allah_mod:blocks/obama_face",
+    "west": "allah_mod:blocks/obama_face",
+    "particle": "allah_mod:blocks/us_flag"
   }
 }
