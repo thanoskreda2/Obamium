@@ -6,11 +6,11 @@
       "value": "CUSTOM:Obamium"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ENCHANTMENT_TABLE"
     },
-    "portalLuminance": 0.0,
+    "portalLuminance": 0.09999999999999999,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "CUSTOM:music_gangstasparadise"
     },
     "igniterName": "Niggaworld Portal Igniter",
     "igniterTab": {
@@ -22,9 +22,18 @@
     "biomesInDimension": [
       {
         "value": "nether"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "CUSTOM:NiggaBiome"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
       "value": "CUSTOM:Obamium"
     },
@@ -46,11 +55,11 @@
       "falpha": 1.0
     },
     "canRespawnHere": false,
-    "hasFog": false,
+    "hasFog": true,
     "hasWeather": true,
     "isDark": false,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false
   }

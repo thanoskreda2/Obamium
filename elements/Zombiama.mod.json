@@ -110,7 +110,17 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:NiggaBiome"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "nether"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

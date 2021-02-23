@@ -1,0 +1,89 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Nigga Biome",
+    "groundBlock": {
+      "value": "CUSTOM:Obamium"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Obamium"
+    },
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 8,
+    "spawnVines": true,
+    "treeVines": {
+      "value": "CUSTOM:Obamium"
+    },
+    "treeStem": {
+      "value": "CUSTOM:Obamium"
+    },
+    "treeBranch": {
+      "value": "Blocks.DIAMOND_ORE"
+    },
+    "treeFruits": {
+      "value": "Blocks.TNT"
+    },
+    "airColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3355648,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13382656,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 20,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NETHER",
+    "parent": {
+      "value": "No parent"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores"
+    ],
+    "spawnEntries": []
+  }
+}

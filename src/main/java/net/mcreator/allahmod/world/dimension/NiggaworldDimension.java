@@ -27,11 +27,11 @@ import net.minecraft.world.gen.layer.Layer;
 import net.minecraft.world.gen.layer.IslandLayer;
 import net.minecraft.world.gen.area.LazyArea;
 import net.minecraft.world.gen.area.IAreaFactory;
-import net.minecraft.world.gen.NetherGenSettings;
-import net.minecraft.world.gen.NetherChunkGenerator;
 import net.minecraft.world.gen.LazyAreaLayerContext;
 import net.minecraft.world.gen.INoiseRandom;
 import net.minecraft.world.gen.IExtendedNoiseRandom;
+import net.minecraft.world.gen.EndGenerationSettings;
+import net.minecraft.world.gen.EndChunkGenerator;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.Dimension;
@@ -55,7 +55,6 @@ import net.minecraft.util.CachedBlockInfo;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
@@ -120,7 +119,9 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("nether")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("nether")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("jungle")), ForgeRegistries.BIOMES.getValue(new ResourceLocation("swamp")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("allah_mod:nigga_biome")),};
 	}
 
 	@Override
@@ -137,7 +138,7 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
-					.lightValue(0).noDrops());
+					.lightValue(2).noDrops());
 			setRegistryName("niggaworld_portal");
 		}
 
@@ -242,11 +243,12 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 					pz = pos.getZ() + 0.5 + 0.25 * j;
 					vz = random.nextFloat() * 2 * j;
 				}
-				world.addParticle(ParticleTypes.EXPLOSION, px, py, pz, vx, vy, vz);
+				world.addParticle(ParticleTypes.ENCHANT, px, py, pz, vx, vy, vz);
 			}
 			if (random.nextInt(110) == 0)
 				world.playSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(("block.portal.ambient"))),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation(("allah_mod:music_gangstasparadise"))),
 						SoundCategory.BLOCKS, 0.5f, random.nextFloat() * 0.4F + 0.8F, false);
 		}
 
@@ -666,7 +668,7 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 		private BiomeProviderCustom biomeProviderCustom = null;
 		public CustomDimension(World world, DimensionType type) {
 			super(world, type, 0.5f);
-			this.nether = true;
+			this.nether = false;
 		}
 
 		@Override
@@ -696,12 +698,12 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public boolean doesXZShowFog(int x, int z) {
-			return false;
+			return true;
 		}
 
 		@Override
 		public SleepResult canSleepAt(PlayerEntity player, BlockPos pos) {
-			return SleepResult.ALLOW;
+			return SleepResult.DENY;
 		}
 
 		@Nullable
@@ -730,9 +732,9 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 		}
 	}
 
-	public static class ChunkProviderModded extends NetherChunkGenerator {
-		public ChunkProviderModded(World world, BiomeProvider provider) {
-			super(world, provider, new NetherGenSettings() {
+	public static class ChunkProviderModded extends EndChunkGenerator {
+		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
+			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {
 					return ObamiumBlock.block.getDefaultState();
 				}
@@ -741,12 +743,7 @@ public class NiggaworldDimension extends AllahModModElements.ModElement {
 					return Blocks.LAVA.getDefaultState();
 				}
 			});
-			this.randomSeed.skip(9716);
-		}
-
-		@Override
-		public List<Biome.SpawnListEntry> getPossibleCreatures(EntityClassification creatureType, BlockPos pos) {
-			return this.world.getBiome(pos).getSpawns(creatureType);
+			this.randomSeed.skip(3946);
 		}
 	}
 

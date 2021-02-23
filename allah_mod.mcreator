@@ -106,6 +106,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "niggaworld"
+    },
+    {
+      "name": "NiggaBiome",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nigga_biome"
     }
   ],
   "variable_elements": [
@@ -139,6 +148,7 @@
       "item.allah_mod.obamiuma_leggings": "Obamium Leggings",
       "item.allah_mod.zombiama_spawn_egg": "Zombiama Spawn Egg",
       "block.allah_mod.obamium": "Obamium",
+      "biome.allah_mod.nigga_biome": "Nigga Biome",
       "subtitles.music_gangstasparadise": "Gangsta\u0027s Paradise"
     }
   },
